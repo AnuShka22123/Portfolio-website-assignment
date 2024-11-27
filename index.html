@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+ 
+    
+
+  
+  <!-- The rest of your HTML content goes here, including the skills section and other content. -->
+  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        
+        <div class="about-image">
+          <img src="profilep.jpeg" alt="Your Portrait">
+        </div>
+        <div class="about-description">
+          <p>
+            I am <strong>Anushka Joshi</strong>, a Computer Engineering graduate with a strong foundation in 
+            <strong>software development</strong> and a passion for creating impactful solutions. I have 
+            completed a <strong>.NET internship</strong> at Imocha, where I developed scalable web applications 
+            using <strong>ASP.NET MVC, C#, and SQL Server</strong>, and currently, I am working as an 
+            <strong>Associate Engineer</strong> at Credain, further expanding my expertise in the tech industry.
+          </p>
+          <p>
+            Proficient in <strong>Java, Python, C++, and the MERN stack</strong>, I have delivered projects like a 
+            <strong>patented IoT Smart Assistant Glove</strong>, a <strong>Rock and Mine Detection System</strong> 
+            leveraging machine learning, and a <strong>Task Manager Application</strong> with a robust backend and 
+            dynamic UI/UX. My hands-on experience includes working with <strong>Git, Docker, and Postman</strong> 
+            across diverse environments like Windows and Linux.
+          </p>
+          <p>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section id="skills">
+      <h2>Skills</h2>
+      
+      <!-- Technical Skills Section -->
+      <div class="skills-grid1">
+        
+        <!-- HTML, CSS, JavaScript -->
+        <div class="skill">
+          <img src="lg1.png" alt="HTML Logo" class="skill-logo">
+          <h3>HTML, CSS, JavaScript</h3>
+        </div>
+    
+        <!-- React, Node.js, MongoDB -->
+        <div class="skill">
+          <img src="lg2.png" alt="React Logo" class="skill-logo">
+          <h3>React, Node.js, MongoDB</h3>
+        </div>
+    
+        <!-- Version Control: Git & GitHub -->
+        <div class="skill">
+          <img src="lg3.png" alt="Git Logo" class="skill-logo">
+          <h3>Version Control: Git & GitHub</h3>
+        </div>
+
+        <div class="skill">
+          <img src="lg4.png" alt="Git Logo" class="skill-logo">
+          <h3>Programming Languages: Java, C++</h3>
+        </div>
+
+        <div class="skill">
+          <img src="lg5.png" alt="Git Logo" class="skill-logo">
+          <h3>Testing Tools: Jest</h3>
+        </div>
+    
+      </div>
+    
+
+    
+    </section>
+    
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1: E-Commerce Website -->
+        <div class="project">
+          <h3>Project 1: E-Commerce Website</h3>
+          <p><strong>Description:</strong> An online shopping platform with a seamless user interface and secure payment integration.</p>
+          <p><strong>Technologies Used:</strong> React.js, Bootstrap, CSS (Frontend), Node.js, Express.js (Backend), MongoDB (Database) ,Git</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+    
+        <!-- Project 2: Task Manager -->
+        <div class="project">
+          <h3>Project 2: Task Manager</h3>
+          <p><strong>Description:</strong> A web app to organize and prioritize daily tasks effectively.</p>
+          <p><strong>Technologies Used:</strong> React.js, HTML, CSS, JavaScript (Frontend), Node.js, Express.js (Backend), MongoDB (Database), Git, Postman (Tools)</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+    
+        <!-- Project 3: Portfolio Website -->
+        <div class="project">
+          <h3>Project 3: Portfolio Website</h3>
+          <p><strong>Description:</strong> A sleek and responsive portfolio to showcase my professional journey.</p>
+          <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript (Frontend), Git, GitHub (Version Control), GitHub Pages (Deployment)</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        
+      </div>
+    </section>
+    
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
